@@ -24,7 +24,8 @@ class ViewController: UIViewController {
             label.text = String(count)
         } else
         {
-            count = 9;
+            count = 0;
+            count = count + 1
             label.text = String(count)
         }
     }
